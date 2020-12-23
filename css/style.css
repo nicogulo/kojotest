@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Roboto Slap;
+}
+body{
+	font-family: Roboto Slap sans;
+}
+.main{
+	background-image: url(../background2.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	
+}
+
+.jumbo:hover{
+	background-color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+	transition: 0.6s ease;
+	border-radius: 30px;
+}
+
+@media (min-width: 992px) {
+  
+  
+.navbar {
+	color: #6f5c39;
+	text-decoration: none;
+}
+.nav-kojo {
+	font-family: Ropa Sans;
+	font-size: 80px;
+	line-height: 214px;
+	color: #6f5c39;
+}
+.nav-link {
+	font-family: Roboto Slab Sans;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #6f5c39;
+	margin: 20px;
+}
+
+.nav-link:hover {
+	background-color: #fff;
+	text-decoration: none;
+	cursor: pointer;
+	color: #000;
+	transition: 0.6s ease;
+	border-radius: 30px;
+}
+
+  /*jumbotron*/
+
+  .jumbotron-fluid h1 {
+    font-family: Roboto Slab sans;
+    text-transform: uppercase;
+    position: absolute;
+    top: 32%;
+		right: 5%;
+		color: #6f5c39;
+	}
+	
+	.lead{
+		margin-top: 20%;
+	}
+  .logo-login {
+    margin-top: 50%;
+  }
+
+  .card {
+    background-color: #c4c4c4;
+    position: absolute;
+    right: 10%;
+    margin-top: -70px;
+    font-size: 18px;
+  }
+  .form-control {
+    border-radius: 30px;
+	}
+	
+	.has-search .form-control {
+    padding-left: 2.375rem;
+	}
+
+	.search-kojo{
+		border-radius: 3px;
+		background-color: #386E5B; 
+	}
+
+	.has-search .form-control-feedback {
+			position: absolute;
+			z-index: 2;
+			display: block;
+			width: 2.375rem;
+			height: 2.375rem;
+			line-height: 2.375rem;
+			text-align: center;
+			pointer-events: none;
+			color: #aaa;
+	}
+	.form-inline .fas{
+		padding: 20px;
+	}
+
+
+	/* about page */
+	
+	
+}
+
+/* contact page */
+.address{
+	font-size: 18px;
+	margin-top: 20px;
+}
+
+
+
+
+/* phone */
+@media (min-width: 576px) { 
+	.jumbotron-fluid h1 {
+    font-family: Roboto Slab sans;
+		text-transform: uppercase;
+		align-items: center;
+    position: absolute;
+    top: 32%;
+		right: 5%;
+		color: #6f5c39;
+	}
+	
+.navbar {
+	color: #6f5c39;
+	text-decoration: none;
+}
+.nav-kojo {
+	font-family: Ropa Sans;
+	font-size: 80px;
+	line-height: 214px;
+	color: #6f5c39;
+}
+.nav-link {
+	font-family: Roboto Slab Sans;
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #6f5c39;
+	margin: 20px;
+}
+
+}
