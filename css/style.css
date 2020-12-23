@@ -26,13 +26,14 @@ body{
 @media (min-width: 992px) {
   
   
-.navbar {
+.navbar-index {
+	top: -60px;
 	color: #6f5c39;
 	text-decoration: none;
 }
 .nav-kojo {
 	font-family: Ropa Sans;
-	font-size: 80px;
+	
 	line-height: 214px;
 	color: #6f5c39;
 }
